@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MemberViewController">
+            <connections>
+                <outlet property="Label01" destination="rui-bS-EOX" id="9em-yo-YyG"/>
+                <outlet property="Label03" destination="0Ya-uV-i4z" id="7pM-qm-rst"/>
+                <outlet property="Label04" destination="osh-h6-h4f" id="QSG-89-T6X"/>
+                <outlet property="Label06" destination="VIC-jr-1re" id="5jW-Tt-VJC"/>
+                <outlet property="Label07" destination="kuL-B8-ia8" id="2EQ-4D-P6O"/>
+                <outlet property="Label1" destination="vrD-iz-bad" id="IyF-q9-G8W"/>
+                <outlet property="Label2" destination="NW4-jQ-PNv" id="Txy-mu-yl5"/>
+                <outlet property="Label3" destination="YgX-C9-lBd" id="eDm-gn-BYt"/>
+                <outlet property="Label4" destination="pBt-4N-KWw" id="N2Q-Wm-m5N"/>
+                <outlet property="Label5" destination="nzJ-lg-deS" id="H3D-JB-hZr"/>
+                <outlet property="Label6" destination="OrS-v8-rws" id="hTs-Jo-d5D"/>
+                <outlet property="Label7" destination="1Y5-KQ-dxT" id="IQt-aF-7r4"/>
+                <outlet property="beijingImageView" destination="xfm-xq-vDH" id="YsC-g7-T3h"/>
+                <outlet property="daifukuanButton" destination="DoC-ch-YSR" id="uiV-a8-wgP"/>
+                <outlet property="daifukuanImageView" destination="tEa-cX-VLf" id="oBl-lS-7uo"/>
+                <outlet property="daifukuanLabel" destination="PR5-k3-hO5" id="oX9-MC-TNo"/>
+                <outlet property="daijinquanButton" destination="LVs-M9-Cpm" id="6jB-9A-xQS"/>
+                <outlet property="daipingjiaButton" destination="DEK-TX-gcX" id="oCr-Az-LaV"/>
+                <outlet property="daipinjiaImageView" destination="O6v-sC-dyn" id="9Tg-ym-x1d"/>
+                <outlet property="daipinjiaLabel" destination="V8t-l3-pJ1" id="snA-hp-ubk"/>
+                <outlet property="dairuzhuButton" destination="f1N-wh-G7y" id="kXl-c9-4QY"/>
+                <outlet property="dairuzhuImageView" destination="kfB-Xs-U5p" id="2SD-IX-Nf1"/>
+                <outlet property="dairuzhuLabel" destination="zsr-Ns-pXk" id="Axi-z3-6DZ"/>
+                <outlet property="dingbanLabel" destination="Xfc-TC-ZkM" id="AJr-dn-RTP"/>
+                <outlet property="dingdanButton" destination="NYz-hl-Nf9" id="uFY-Sr-mO9"/>
+                <outlet property="dingdanImageView" destination="npn-Fp-aTX" id="cow-ah-YGf"/>
+                <outlet property="fanxianLabel" destination="Q3U-uU-ppM" id="Qyg-du-tqP"/>
+                <outlet property="fanxianShuziLabel" destination="l8i-gj-euC" id="CYC-je-hjZ"/>
+                <outlet property="huiyuanLabel" destination="enh-A6-aiq" id="2w1-3Z-D1L"/>
+                <outlet property="huiyuanTouxiangImageView" destination="8W8-8t-J1G" id="1EO-fW-GCC"/>
+                <outlet property="huiyuanXiaotubiaoImageView" destination="8D2-4i-kfx" id="8Xf-XX-g8h"/>
+                <outlet property="imageView01" destination="jEh-0u-jEI" id="oiD-Aa-ybH"/>
+                <outlet property="imageView02" destination="FAG-aO-8W8" id="U41-83-peO"/>
+                <outlet property="imageView03" destination="46k-Gr-pEk" id="JvZ-Wc-Hge"/>
+                <outlet property="imageView04" destination="VEa-oA-7Nz" id="6Sp-O2-p1I"/>
+                <outlet property="imageView05" destination="7bI-1v-Ap5" id="zXY-o0-1qj"/>
+                <outlet property="imageView06" destination="quB-Oc-JgD" id="71c-42-8bQ"/>
+                <outlet property="imageView07" destination="PNR-Tv-Kis" id="xCb-64-e9o"/>
+                <outlet property="imageView1" destination="XNQ-m1-8zJ" id="024-sE-Hqa"/>
+                <outlet property="imageView2" destination="rq8-Mw-nLX" id="O9o-Y2-mLe"/>
+                <outlet property="imageView3" destination="uBJ-DP-LDb" id="J4r-JT-vRN"/>
+                <outlet property="imageView4" destination="eic-ri-jmm" id="SMd-Jf-fk7"/>
+                <outlet property="imageView5" destination="1mc-Nw-QuT" id="7gq-oD-fYs"/>
+                <outlet property="imageView6" destination="HcA-Ol-9vD" id="Z3Z-mo-iYB"/>
+                <outlet property="imageView7" destination="HCn-F4-K90" id="fKl-r5-al7"/>
+                <outlet property="kefuButton" destination="jki-LD-arw" id="0wq-aw-9oW"/>
+                <outlet property="liPinLabel" destination="x1q-X2-vI3" id="75a-68-Xde"/>
+                <outlet property="lipinShuziLabel" destination="J5f-si-ino" id="yKe-0b-ktN"/>
+                <outlet property="qianbaoLabel" destination="XWC-ta-XaM" id="y5K-tf-5m7"/>
+                <outlet property="qianbaoXiaImageView" destination="TvT-MS-DDx" id="EG8-UC-x3e"/>
+                <outlet property="shimingRenzhengButton" destination="6kU-Qc-7E0" id="wTR-Aa-8eP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wodeFanliButton" destination="6cl-7j-l5f" id="THh-zJ-jp2"/>
+                <outlet property="wodeJifenButton" destination="vsb-rv-lpc" id="dEk-ww-dfu"/>
+                <outlet property="xianjinLabel" destination="0C1-I3-gro" id="31s-hz-hzk"/>
+                <outlet property="xianjinShuziLabel" destination="cmp-rY-htD" id="slJ-c1-wYf"/>
+                <outlet property="xiaofeiJiluButton" destination="jq2-bm-ljN" id="16v-0F-Q70"/>
+                <outlet property="zhanghaoXinxiButton" destination="CFO-ar-OwE" id="0pt-xP-WEz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="xfm-xq-vDH">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.14901960784313725" green="0.67843137254901964" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="8D2-4i-kfx">
+                    <rect key="frame" x="128" y="80" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="尊敬的会员" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="enh-A6-aiq">
+                    <rect key="frame" x="140" y="80" width="51" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的钱包" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XWC-ta-XaM">
+                    <rect key="frame" x="17" y="104" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="TvT-MS-DDx">
+                    <rect key="frame" x="8" y="116" width="304" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NYz-hl-Nf9">
+                    <rect key="frame" x="0.0" y="136" width="79" height="47"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="dingdanButtonClick:" destination="-1" eventType="touchUpInside" id="jy9-JM-L9p"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DoC-ch-YSR">
+                    <rect key="frame" x="80" y="136" width="79" height="47"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="daifukuanButtonClick:" destination="-1" eventType="touchUpInside" id="APS-8b-7DQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f1N-wh-G7y">
+                    <rect key="frame" x="160" y="136" width="79" height="47"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="dairuZhuButtonClick:" destination="-1" eventType="touchUpInside" id="kKM-0B-k3E"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DEK-TX-gcX">
+                    <rect key="frame" x="240" y="136" width="80" height="47"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="daipinjiaButtonClick:" destination="-1" eventType="touchUpInside" id="duE-WI-m26"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CFO-ar-OwE">
+                    <rect key="frame" x="0.0" y="187" width="320" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="zhanghaoXinxiButtonClick:" destination="-1" eventType="touchUpInside" id="lXC-ca-Yvf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6cl-7j-l5f">
+                    <rect key="frame" x="0.0" y="218" width="320" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="wodeFanLiButtonClick:" destination="-1" eventType="touchUpInside" id="eET-L2-sws"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jq2-bm-ljN">
+                    <rect key="frame" x="0.0" y="248" width="320" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="xiaofeiJiluButtonClick:" destination="-1" eventType="touchUpInside" id="VXF-Ib-teC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vsb-rv-lpc">
+                    <rect key="frame" x="0.0" y="277" width="320" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="wodeJifenButtonClick:" destination="-1" eventType="touchUpInside" id="5V5-GB-IVL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6kU-Qc-7E0">
+                    <rect key="frame" x="0.0" y="307" width="320" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="shimingRenzhengButtonClick:" destination="-1" eventType="touchUpInside" id="cOj-lL-49D"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jki-LD-arw">
+                    <rect key="frame" x="0.0" y="367" width="320" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="kefuButtonClick:" destination="-1" eventType="touchUpInside" id="ok9-lR-cPS"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="现金 : ￥" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0C1-I3-gro">
+                    <rect key="frame" x="17" y="120" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123456" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cmp-rY-htD">
+                    <rect key="frame" x="57" y="120" width="60" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="礼品卡 : ￥" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x1q-X2-vI3">
+                    <rect key="frame" x="123" y="120" width="51" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J5f-si-ino">
+                    <rect key="frame" x="175" y="120" width="50" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="返现 : ￥" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q3U-uU-ppM">
+                    <rect key="frame" x="221" y="120" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123456" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l8i-gj-euC">
+                    <rect key="frame" x="261" y="120" width="42" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="账号信息.png" id="XNQ-m1-8zJ">
+                    <rect key="frame" x="8" y="196" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="会员社区.png" id="rq8-Mw-nLX">
+                    <rect key="frame" x="8" y="226" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="消费记录.png" id="uBJ-DP-LDb">
+                    <rect key="frame" x="8" y="256" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="我的积分.png" id="eic-ri-jmm">
+                    <rect key="frame" x="8" y="286" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="实名认证.png" id="1mc-Nw-QuT">
+                    <rect key="frame" x="8" y="316" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="代金劵.png" id="HcA-Ol-9vD">
+                    <rect key="frame" x="8" y="346" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="客服.png" id="HCn-F4-K90">
+                    <rect key="frame" x="8" y="376" width="10" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的返利" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NW4-jQ-PNv">
+                    <rect key="frame" x="21" y="226" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="消费记录" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YgX-C9-lBd">
+                    <rect key="frame" x="21" y="256" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的积分" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pBt-4N-KWw">
+                    <rect key="frame" x="21" y="286" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="实名认证" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nzJ-lg-deS">
+                    <rect key="frame" x="21" y="316" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="代金券" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OrS-v8-rws">
+                    <rect key="frame" x="21" y="346" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="客服" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Y5-KQ-dxT">
+                    <rect key="frame" x="21" y="376" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="信息修改" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rui-bS-EOX">
+                    <rect key="frame" x="262" y="196" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看记录" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Ya-uV-i4z">
+                    <rect key="frame" x="262" y="256" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看积分" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="osh-h6-h4f">
+                    <rect key="frame" x="262" y="286" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击查看" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VIC-jr-1re">
+                    <rect key="frame" x="262" y="346" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="400 0183 100" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kuL-B8-ia8">
+                    <rect key="frame" x="212" y="376" width="90" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="箭头.png" id="jEh-0u-jEI">
+                    <rect key="frame" x="304" y="196" width="6" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="箭头.png" id="FAG-aO-8W8">
+                    <rect key="frame" x="304" y="226" width="6" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="箭头.png" id="46k-Gr-pEk">
+                    <rect key="frame" x="304" y="256" width="6" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="箭头.png" id="VEa-oA-7Nz">
+                    <rect key="frame" x="304" y="286" width="6" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="箭头.png" id="7bI-1v-Ap5">
+                    <rect key="frame" x="304" y="316" width="6" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="箭头.png" id="quB-Oc-JgD">
+                    <rect key="frame" x="304" y="346" width="6" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="箭头.png" id="PNR-Tv-Kis">
+                    <rect key="frame" x="304" y="376" width="6" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全部订单" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xfc-TC-ZkM">
+                    <rect key="frame" x="0.0" y="166" width="79" height="12"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.2712287303664922" green="0.2712287303664922" blue="0.2712287303664922" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待付款" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PR5-k3-hO5">
+                    <rect key="frame" x="80" y="166" width="79" height="12"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待入住" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zsr-Ns-pXk">
+                    <rect key="frame" x="160" y="166" width="79" height="12"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待评价" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="V8t-l3-pJ1">
+                    <rect key="frame" x="240" y="166" width="79" height="12"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="全部订单图标.png" id="npn-Fp-aTX">
+                    <rect key="frame" x="31" y="145" width="17" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="待支付.png" id="tEa-cX-VLf">
+                    <rect key="frame" x="111" y="145" width="17" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="带入住" id="kfB-Xs-U5p">
+                    <rect key="frame" x="191" y="145" width="17" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="账号信息" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vrD-iz-bad">
+                    <rect key="frame" x="21" y="196" width="40" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.27122873040000001" green="0.27122873040000001" blue="0.27122873040000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="待评价.png" id="O6v-sC-dyn">
+                    <rect key="frame" x="271" y="145" width="17" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8W8-8t-J1G">
+                    <rect key="frame" x="135" y="25" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.0" green="0.62352941179999999" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="huiyuanButtonClick:" destination="-1" eventType="touchUpInside" id="b5e-mf-LB9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LVs-M9-Cpm">
+                    <rect key="frame" x="0.0" y="338" width="320" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="daijinquanButtonClick:" destination="-1" eventType="touchUpInside" id="w9d-Fh-DTF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="285" y="337"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="代金劵.png" width="26" height="18"/>
+        <image name="会员社区.png" width="22" height="28"/>
+        <image name="全部订单图标.png" width="40" height="40"/>
+        <image name="实名认证.png" width="20" height="22"/>
+        <image name="客服.png" width="20" height="26"/>
+        <image name="带入住" width="12" height="20"/>
+        <image name="待支付.png" width="38" height="34"/>
+        <image name="待评价.png" width="38" height="36"/>
+        <image name="我的积分.png" width="26" height="24"/>
+        <image name="消费记录.png" width="24" height="22"/>
+        <image name="箭头.png" width="12" height="19"/>
+        <image name="账号信息.png" width="26" height="22"/>
+    </resources>
+</document>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="ChoujiangButton" destination="LgD-Bb-2gH" id="XMX-5O-lSe"/>
+                <outlet property="ErweimaButton" destination="2eR-eM-N8e" id="gHX-gg-Gqp"/>
+                <outlet property="HuiyuanButton" destination="Fho-yd-K81" id="qjE-tp-YkB"/>
+                <outlet property="HuodongImage" destination="Pgf-ZK-fuz" id="Olm-5N-o2s"/>
+                <outlet property="QiandaoButton" destination="bgJ-ah-D9W" id="e21-mu-gQ7"/>
+                <outlet property="SousuoTextField" destination="bgg-ah-6KY" id="pZb-YK-JqU"/>
+                <outlet property="ZhenggeShouyeScrollView" destination="EoN-DP-STv" id="2fY-yd-YgU"/>
+                <outlet property="ZhuceButton" destination="cjF-lz-TG1" id="XkF-Ym-B6p"/>
+                <outlet property="daohanglanImageView" destination="1Qc-xt-38d" id="u8G-xo-a9M"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="EoN-DP-STv">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fho-yd-K81">
+                            <rect key="frame" x="10" y="200" width="300" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.031315868189999999" green="0.82079444619999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" backgroundImage="shouyeBiaoti.png"/>
+                            <connections>
+                                <action selector="HuiyuanZhaomuButtonClick:" destination="-1" eventType="touchUpInside" id="uzE-pj-ypx"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bgJ-ah-D9W">
+                            <rect key="frame" x="10" y="415" width="150" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                            <state key="normal" backgroundImage="签到积分.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="QiandaoButtonClick:" destination="-1" eventType="touchUpInside" id="lQl-v2-naK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cjF-lz-TG1">
+                            <rect key="frame" x="160" y="415" width="150" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <color key="backgroundColor" white="0.33333333333333331" alpha="0.14999999999999999" colorSpace="calibratedWhite"/>
+                            <state key="normal" backgroundImage="注册有奖.png"/>
+                            <connections>
+                                <action selector="ZhuceButtonClick:" destination="-1" eventType="touchUpInside" id="EOb-3w-Ad5"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="特惠.png" id="Pgf-ZK-fuz">
+                            <rect key="frame" x="11" y="265" width="300" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.2913851509" green="0.68530947990000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LgD-Bb-2gH">
+                            <rect key="frame" x="10" y="315" width="300" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.51278619609999998" green="0.76449457139999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" backgroundImage="0元抽奖广告图.png"/>
+                            <connections>
+                                <action selector="ChoujiangButtonClick:" destination="-1" eventType="touchUpInside" id="lwb-1v-XZr"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </scrollView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1Qc-xt-38d">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.24313725490196078" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="bgg-ah-6KY">
+                    <rect key="frame" x="90" y="26" width="170" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xinLogo.png" id="lye-Qb-lTZ">
+                    <rect key="frame" x="5" y="26" width="80" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2eR-eM-N8e">
+                    <rect key="frame" x="272" y="21" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <connections>
+                        <action selector="SaomiaoErweimaButtonClick:" destination="-1" eventType="touchUpInside" id="M0A-ax-3sF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="305" y="422"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="0元抽奖广告图.png" width="710" height="310"/>
+        <image name="shouyeBiaoti.png" width="710" height="102"/>
+        <image name="xinLogo.png" width="175" height="53"/>
+        <image name="注册有奖.png" width="355" height="210"/>
+        <image name="特惠.png" width="710" height="110"/>
+        <image name="签到积分.png" width="355" height="210"/>
+    </resources>
+</document>

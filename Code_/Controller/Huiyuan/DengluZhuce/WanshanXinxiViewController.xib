@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8191"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WanshanXinxiViewController">
+            <connections>
+                <outlet property="neirongView" destination="VhA-rc-JWw" id="oGP-ZO-5NL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view tag="10010" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VhA-rc-JWw">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="VhA-rc-JWw" secondAttribute="trailing" id="BJg-Bz-vNm"/>
+                <constraint firstAttribute="bottom" secondItem="VhA-rc-JWw" secondAttribute="bottom" id="Vg8-Jp-Fzc"/>
+                <constraint firstItem="VhA-rc-JWw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="f8R-db-GKQ"/>
+                <constraint firstItem="VhA-rc-JWw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nen-9K-SOR"/>
+            </constraints>
+            <point key="canvasLocation" x="374" y="293"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="f33-41-yiH">
+            <objects>
+                <viewController storyboardIdentifier="QiPaoView" id="h3U-Kf-oTg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xTs-bv-1aE"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ums-pQ-2Zb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Df4-U4-7aR">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="price" translatesAutoresizingMaskIntoConstraints="NO" id="eBH-Ow-dQQ">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGQ-DK-nZC">
+                                <rect key="frame" x="61" y="60" width="179" height="118"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eBH-Ow-dQQ" secondAttribute="trailing" id="88B-y6-fxU"/>
+                            <constraint firstItem="NGQ-DK-nZC" firstAttribute="leading" secondItem="Df4-U4-7aR" secondAttribute="leadingMargin" constant="41" id="C3L-Zo-42M"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NGQ-DK-nZC" secondAttribute="trailing" constant="40" id="ERD-g2-WU7"/>
+                            <constraint firstItem="eBH-Ow-dQQ" firstAttribute="top" secondItem="Df4-U4-7aR" secondAttribute="top" id="QME-e1-Qt5"/>
+                            <constraint firstItem="eBH-Ow-dQQ" firstAttribute="leading" secondItem="Df4-U4-7aR" secondAttribute="leading" id="SIG-Bc-AAB"/>
+                            <constraint firstItem="NGQ-DK-nZC" firstAttribute="top" secondItem="xTs-bv-1aE" secondAttribute="bottom" constant="40" id="SXR-jI-RkK"/>
+                            <constraint firstItem="Ums-pQ-2Zb" firstAttribute="top" secondItem="NGQ-DK-nZC" secondAttribute="bottom" constant="122" id="eIP-cH-N1V"/>
+                            <constraint firstItem="Ums-pQ-2Zb" firstAttribute="top" secondItem="eBH-Ow-dQQ" secondAttribute="bottom" id="fsS-mo-id5"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="300" height="300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vUc-3p-QVk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="621" y="483"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="price" width="114" height="135"/>
+    </resources>
+</document>

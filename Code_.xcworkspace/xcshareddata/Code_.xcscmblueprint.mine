@@ -1,0 +1,75 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3809+++5484C19",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3071+++837987E" : {
+
+    },
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++7756+++6DD73E5" : {
+
+    },
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3809+++76A05C5" : {
+
+    },
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++573+++F2AF8DD" : {
+
+    },
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3071+++8B22F01" : {
+
+    },
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3809+++5484C19" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3071+++837987E" : 0,
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++7756+++6DD73E5" : 0,
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3809+++76A05C5" : 0,
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++573+++F2AF8DD" : 0,
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3071+++8B22F01" : 0,
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3809+++5484C19" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2EF23B6E-E25A-4D60-B1A3-9BF34807CE68",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3071+++837987E" : "",
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++7756+++6DD73E5" : "Code_\/",
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3809+++76A05C5" : "..",
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++573+++F2AF8DD" : "..\/..",
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3071+++8B22F01" : "",
+    "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3809+++5484C19" : "Code_1-26%EF%BC%8D3-2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Code_",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Code_.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.125\/svn\/Project",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3071+++837987E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.125\/svn\/Project",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3071+++8B22F01"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.125\/svn\/Project",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3809+++5484C19"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.125\/svn\/Project",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++3809+++76A05C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.125\/svn\/Project",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++573+++F2AF8DD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.125\/svn\/Project",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b9e2b15f-3fef-dc44-98a1-a4be82a8036a++7756+++6DD73E5"
+    }
+  ]
+}
